@@ -1,34 +1,19 @@
-# McMojave cursors
-This is an x-cursor theme inspired by macOS and
-based on [capitaine-cursors](https://github.com/keeferrourke/capitaine-cursors).
+@'
+# McMojave Cursors for Windows
+
+This is a Windows port of [McMojave-cursors](https://github.com/vinceliuice/McMojave-cursors) by vinceliuice,
+converted from Xcursor format to Windows .cur/.ani using win2xcur.
 
 ## Installation
-To install the cursor theme simply copy the compiled theme to your icons
-directory. For local user installation:
 
-```
-./install.sh
-```
+1. Right-click `install-cursors.inf` and select "Install"
+2. Go to Settings > Bluetooth & devices > Mouse > Additional mouse settings > Pointers tab
+3. Under "Scheme", select "McMojave"
+4. Click Apply / OK
 
-For system-wide installation for all users:
+Alternatively, assign cursors manually via the Pointers tab using "Browse".
 
-```
-sudo ./install.sh
-```
-
-Then set the theme with your preferred desktop tools.
-
-## Building from source
-You'll find everything you need to build and modify this cursor set in
-the `src/` directory. To build the xcursor theme from the SVG source
-run:
-
-```
-./build.sh
-```
-
-This will generate the pixmaps and appropriate aliases.
-The freshly compiled cursor theme will be located in `dist/`
-
-## Preview
-![McMojave](preview.png)
+## Credits
+All artwork credit goes to the original author, vinceliuice.
+This is just a format conversion for Windows compatibility.
+'@ | Out-File -Encoding UTF8 C:\Users\arda\Documents\github-calisma\mcmojave-win\McMojave-cursors-windows\README.md
