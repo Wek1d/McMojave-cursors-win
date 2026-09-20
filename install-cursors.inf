@@ -1,0 +1,28 @@
+[Version]
+signature="$CHICAGO$"
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\left_ptr.cur,%10%\%CUR_DIR%\left_ptr_help.cur,%10%\%CUR_DIR%\left_ptr_watch.ani,%10%\%CUR_DIR%\wait.ani,%10%\%CUR_DIR%\crosshair.cur,%10%\%CUR_DIR%\xterm.cur,%10%\%CUR_DIR%\pencil.cur,%10%\%CUR_DIR%\forbidden.cur,%10%\%CUR_DIR%\size_ver.cur,%10%\%CUR_DIR%\size_hor.cur,%10%\%CUR_DIR%\size_fdiag.cur,%10%\%CUR_DIR%\size_bdiag.cur,%10%\%CUR_DIR%\fleur.cur,%10%\%CUR_DIR%\right_ptr.cur,%10%\%CUR_DIR%\hand2.cur"
+[Scheme.Cur]
+left_ptr.cur
+left_ptr_help.cur
+left_ptr_watch.ani
+wait.ani
+crosshair.cur
+xterm.cur
+pencil.cur
+forbidden.cur
+size_ver.cur
+size_hor.cur
+size_fdiag.cur
+size_bdiag.cur
+fleur.cur
+right_ptr.cur
+hand2.cur
+[Strings]
+CUR_DIR   = "Cursors\McMojave"
+SCHEME_NAME = "McMojave"
