@@ -1,4 +1,3 @@
-@'
 # McMojave Cursors for Windows
 
 This is a Windows port of [McMojave-cursors](https://github.com/vinceliuice/McMojave-cursors) by vinceliuice,
@@ -16,4 +15,3 @@ Alternatively, assign cursors manually via the Pointers tab using "Browse".
 ## Credits
 All artwork credit goes to the original author, vinceliuice.
 This is just a format conversion for Windows compatibility.
-'@ | Out-File -Encoding UTF8 C:\Users\arda\Documents\github-calisma\mcmojave-win\McMojave-cursors-windows\README.md
